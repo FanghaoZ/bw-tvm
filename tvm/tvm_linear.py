@@ -1,11 +1,3 @@
-#init env
-'''
-conda create -n bw-tvm python=3.8
-conda activate bw-tvm
-pip install mlc-ai-nightly -f https://mlc.ai/wheels
-pip intall -r requirements.txt
-'''
-
 import sys
 from pathlib import Path
 BRAINSLICE_PATH = 'D:/BrainSlice-repo/develop/BrainSlice/'
